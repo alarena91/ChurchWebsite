@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+body{background-color: #606060;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin: auto;
+		color: #ffffff;}
+header{background-color: #505050; 
+		background-repeat: no-repeat; 
+		height: 120px; width: auto; 
+		margin: auto; padding: 15px;}
+nav{background-color: #585858;
+	background-repeat: no-repeat;
+	height: 80px;}
+nav ul {list-style-type: none;
+		margin: 0;
+		text-align: center;
+		padding-top: 30px;}
+nav li{display: inline;
+		padding: 1%}
+nav a { text-decoration: none;
+		text-align: center;
+		font-weight: bold;
+		font-size:120%;}
+nav a:link {color: #ffffff;}
+nav a:visited {color: black;}
+nav a:focus{color: red;}
+nav a:hover{color: red;}
+nav a:active{color: red;}
+h2{text-align: center; font-size: 300%; }
+footer{padding: 10px; font-size: 75%}
+
+
+#headerImg{height: 120px; width: 120px; float: left; padding: none; margin: 0; padding:0;}
+#img1{height: 50%; width: 50%;}
+.larger1{font-size: 130%;}
+.larger2{font-size: 110%;}
+.larger3{font-size: 110%; text-align: center;}
+.center{text-align: center;}
+.center2{text-align: center; width: 50%; margin-left: 25%; margin-right: 25%;}
+.wrapper{padding: 20px;}
+.important{text-align: center; font-size: 150%;}
+.column{float: left; width: 50%;}
+.column2{float: left; width: 25%}
+.columnL{float: left; width: 50%; text-align: left}
+.columnR{float: left; width: 50%; text-align: right;}
+.profilepic{float: left;}
+.ministries{width: 75%; margin-left: 12.5%; margin-right: 12.5%;background-color: rgba(0, 0, 0, 0.3); padding: 15px;}
+.row:after{content:'';display: table; clear: both;}
+.rainbow {
+  font-family: 'Srisakdi', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:40px;
+  text-align: center;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
